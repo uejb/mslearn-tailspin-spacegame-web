@@ -21,3 +21,8 @@ async def healthz() -> Json:
     :returns: (JSON) {"message":"ok", "code":200}
     """
     return {"message":"ok", "code":200}
+
+if __name__ == '__main__':
+    print(__name__)
+    print("Hello Python world!")
+    
