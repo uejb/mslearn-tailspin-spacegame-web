@@ -4,7 +4,8 @@
 # https://aka.ms/yaml
 
 trigger:
-- main
+ - experiments
+ - main
 
 pool: # '$(POOL_NAME)'
   vmImage: ubuntu-latest
